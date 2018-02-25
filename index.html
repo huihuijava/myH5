@@ -8,11 +8,15 @@
 			}else{
 				alert("NO");
 			}*/
-			for(var x=1;x<9;x++){
-				for(var y=1;y<x;y++){
-					docunment.write(y+"*"+x+"="+y+x);
+			document.write("<table>");
+			for(var x=1;x<=9;x++){
+				document.write("<tr>");
+				for(var y=1;y<=x;y++){
+					document.write("<td>"+y+"*"+x+"="+y+x"+</td>");
 				}
+				document.write("</tr>");
 			}
+			document.write("</table>");
 		</script>
 		<meta charset="UTF-8">
 		<title>id选择器</title>
